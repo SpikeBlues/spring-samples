@@ -8,7 +8,7 @@ docker run -d \
     -e MYSQL_DATABASE=demo \
     -e MYSQL_USER=dbuser \
     -e MYSQL_PASSWORD=dbp4ss \
-    mysql:latest
+    mysql:5.7.23
 docker run -d \
     --name spring-boot-jpa-docker-webapp \
     --link demo-mysql:mysql \

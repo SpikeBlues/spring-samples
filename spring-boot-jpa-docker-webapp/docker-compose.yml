@@ -2,7 +2,7 @@ version: '2.1'
 
 services: 
   demo-mysql:
-    image: mysql:latest
+    image: mysql:5.7.23
     environment:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
